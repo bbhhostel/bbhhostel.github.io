@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Big Brothers Hostel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <link href="css/bootstrap-datepicker.min.css" rel="stylesheet"/>
+    <link href="css/lightslider.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<img class="bg" src="img/background.jpg"/>
+<header class="navbar navbar-static-top ">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-3">
+                <img src="img/main_logo.png" alt="Logo" width="225px" class="img-responsive top-logo auto-margin">
+            </div>
+            <div class="col-sm-12 col-md-9 header-container">
+                <nav class="navbar nav-top-marg">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#top-navigation-bar" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
+                                    class="icon-bar"></span> <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-opts" id="top-navigation-bar">
+                            <ul class="nav navbar-nav">
+                                <li><a class="navbar-view" href="index.html">Home</a></li>
+                                <li><a class="navbar-view" href="rooms.html">Rooms</a></li>
+                                <li class="active"><a class="navbar-view" href="#">Contact Us</a></li>
+                                <li><a class="navbar-view" href="http://bbhagra.tumblr.com" target="_blank">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="reservation-container">
+                            <form class="form-inline" id="room-reservation">
+                                <div class="form-group">
+                                    <label for="arrivalDate">Arrival</label>
+
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="arrivalDate"
+                                               data-date-start-date="0d"
+                                               placeholder="Arrival Date"/>
+
+                                        <div class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="departureDate">Departure</label>
+
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="departureDate"
+                                               data-date-start-date="0d"
+                                               placeholder="Departure Date"/>
+
+                                        <div class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <a href="http://www.booking.com/hotel/in/big-brother-hostel-agra.html?label=opensearch-plugin;sid=c4aee0ae902f107c3a4429b94ed665a5;dcid=1;dist=0;sb_price_type=total;srpos=1;type=total&"
+                                       class="btn btn-primary" target="_blank">Book Now</a>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container relative-pos">
+    <div class="row main-content">
+        <div class="col-sm-12 col-md-6 contact-desc">
+            <h4>Location</h4>
+            <iframe src="https://maps.google.com/maps?v=2&f=q&ie=UTF8&t=m&iwloc=&q=Big+Brother+Hostel%2c+Tajganj%2c+Agra%2c+Uttar+Pradesh%2c+India&hl=en&z=12&source=s_q&output=embed"
+                    style="width: 100%; max-height: 300px;"></iframe>
+            <div>
+                <i class="glyphicon glyphicon-map-marker"></i>
+                <span>Rajeev Nagar, Taj Mahal Eastern Gate Road, Near Hotel Amarvilas Agra, Uttar Pradesh, 282001, India</span>
+            </div>
+            <div>
+                <i class="glyphicon glyphicon-earphone"></i>
+                <span>
+                    <a href="tel:+918233786825">+91-8233786825</a>, <a href="tel:05622230113">0562-2230113</a>, <a
+                        href="tel:+919871799693">+91-9871799693</a>
+                </span>
+            </div>
+            <div>
+                <i class="glyphicon glyphicon-envelope"></i>
+                <span><a href="mailto:bigbrotheragra11@gmail.com">bigbrotheragra11@gmail.com</a></span>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 contact-form-container">
+            <h3 class="section-title text-center">Get in touch</h3>
+
+            <div class="row">
+                <div class="form-group col-sm-6">
+                    <label for="name" class="h4">Name</label>
+
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="name" placeholder="Enter name" required/>
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i> </span>
+                    </div>
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="email" class="h4">Email</label>
+
+                    <div class="input-group">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" required/>
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i> </span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message" class="h4 ">Message</label>
+                <textarea id="message" class="form-control" rows="5" placeholder="Enter your message"
+                          required></textarea>
+            </div>
+            <button type="submit" id="form-submit" class="btn btn-success pull-right ">Submit</button>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5162fff83017c0e0"></script>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+<script type="text/javascript" src="js/lightslider.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<script> if (addthis && addthis.layers) {
+    addthis.layers({'share': {'mobile': false, position: 'right'}});
+} </script>
+</body>
+</html>

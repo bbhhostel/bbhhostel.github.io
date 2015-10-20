@@ -1,0 +1,350 @@
+/* common classes */
+.inline-block {
+    display: inline-block;
+}
+
+.relative-pos {
+    position: relative;
+}
+
+.no-bullet-list {
+    list-style-type: none;
+}
+
+.auto-margin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hide-elem {
+    display: none;
+}
+
+/* custom social plugin css */
+#TA_socialButtonBubbles526, #TA_socialButtonBubbles636 {
+    margin-left: 5px;
+}
+
+/* background image styling */
+img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    /* Specific to this particular image */
+    img.bg {
+        left: 50%;
+        margin-left: -512px; /* 50% */
+    }
+}
+
+/* nav bar styling */
+.dropdown-menu li a {
+    padding: 10px 15px;
+}
+
+.navbar {
+    border-top: 0;
+}
+
+.navbar-opts {
+    float: right;
+}
+
+.top-nav-info {
+    padding: 10px 15px;
+    background-color: #379FDC;
+    border-radius: 0 0 10px 10px;
+    color: #FFF;
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+    background-color: #563d7c;
+}
+
+.navbar-brand {
+    height: auto;
+}
+
+.navbar img.top-logo {
+    margin-top: 15px;
+}
+
+.navbar-nav > li > a {
+    border-radius: 0 0 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: left;
+    color: #FBFBFB;
+    text-shadow: none;
+}
+
+.navbar-nav > li > a:focus {
+    background-color: transparent;
+}
+
+.navbar-nav > li.active > a {
+    background-color: rgba(64, 61, 56, 0.71) !important;
+}
+
+.navbar-nav > li > a:hover {
+    background-color: rgb(253, 251, 250);
+    color: #000;
+}
+
+.navbar-nav > li.open > a {
+    color: #000;
+}
+
+.navbar-nav > li.active > a {
+    font-weight: bold;
+    color: #FBFBFB;
+}
+
+.hw-navbar .navbar-toggle .icon-bar {
+    background-color: #563d7c;
+}
+
+.reservation-container {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(32, 53, 101, 0.32);
+    float: right;
+    margin-top: 45px;
+    color: #FFF;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.reservation-container .form-group {
+    margin-right: 10px;
+}
+
+/* content section */
+.main-content {
+    background-color: rgba(243, 245, 243, 0.79);
+    padding: 10px 15px;
+}
+
+.content-title {
+    border-bottom: 2px solid #B0CCCE;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-align: left;
+    text-shadow: 0 0 10px #FFF;
+    color: #358788;
+}
+
+div.tiles-container {
+    width: 21%;
+    vertical-align: text-top;
+    margin: 10px;
+}
+
+/* slider styles */
+.light-slider {
+    height: 250px !important;
+}
+
+.light-slider img {
+    height: 250px;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.slider-desc {
+    font-size: 1.3em;
+    font-family: sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5px;
+    color: #0098C1;
+    text-shadow: 0
+}
+
+/* widget styles */
+.trip-advisor-widget {
+    margin-top: 20px;
+}
+
+
+/* rooms page */
+.room-title {
+    color: #143552;
+    text-shadow: 0 0 15px #FFF5F5;
+}
+.custom-room-icon {
+    display: inline-block;
+    height: 32px;
+    opacity: 0.4;
+    width: 32px;
+    background-size: contain;
+    vertical-align: middle;
+}
+
+.custom-room-icon.custom-room-icon-people {
+    background-image: url('../img/room_page/icon_people.png');
+}
+
+.custom-room-icon.custom-room-icon-bed {
+    background-image: url('../img/room_page/bed_icon.png')
+}
+
+.room-desc {
+    margin-right: 10px;
+}
+
+.thumbnail {
+    background-color: rgba(166, 206, 255, 0.19);
+}
+
+.thumbnail > img {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+}
+
+.thumbnail .caption {
+    padding: 0 5px;
+    text-align: center;
+}
+
+.thumbnail .caption h4 {
+    color: #093B86;
+}
+
+/* Agra page styles */
+#TA_impnearbyaccomnarrow207 > div{
+    margin: 0 auto;
+}
+
+#TA_impnearbyaccomnarrow207 #CDSTITLE {
+    font-size: 1.4em;
+}
+
+.page-desc {
+    font-size: 1.3em;
+}
+
+.page-desc h3 {
+    color: #3C84B7;
+}
+.other_site_ref > a {
+    vertical-align: middle;
+    margin: 5px 10px;
+
+}
+.other_site_ref img {
+    max-width: 120px;
+}
+
+/* contact page styles */
+.section-title:after {
+    border-top: 2px solid #444;
+    content: "";
+    display: block;
+    max-width: 2em;
+    width: 100%;
+    margin: .5em auto .5em auto;
+}
+
+.contact-form-container {
+    border-left: 1px solid #ccc;
+}
+
+.contact-desc i {
+    font-size: 1.3em;
+    vertical-align: middle;
+}
+
+.contact-desc > div {
+    margin-top: 10px;
+}
+
+@media (min-width: 990px) {
+    .header-container .container-fluid {
+        padding: 0;
+    }
+}
+
+@media (max-width: 990px) and (min-width: 768px) {
+    .header-container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .header-container .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .agra-title > .page-desc{
+        text-align: center;
+    }
+    .slider-desc {
+        width: 80%;
+    }
+    .navbar-nav {
+        float: none;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .container-fluid > .navbar-collapse.navbar-opts {
+        float: none;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .navbar-nav > li > a {
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-form-container {
+        border: none;
+    }
+    .agra-title > .page-desc{
+        text-align: center;
+    }
+    .slider-desc {
+        width: 95%;
+    }
+    div.tiles-container {
+        width: 41%;
+    }
+    .navbar-opts {
+        float: none;
+    }
+
+    .dropdown-menu li a {
+        background-color: transparent !important;
+        color: #FFF !important;
+    }
+
+    .dropdown-menu {
+        padding: 0;
+        padding-left: 20px;
+    }
+
+    .navbar-opts ul li.open {
+        border: 1px solid #EEE;
+        border-radius: 0 0 5px 5px;
+    }
+    .dropdown-menu > li {
+
+    }
+}
+
+
+			
