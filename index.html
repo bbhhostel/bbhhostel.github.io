@@ -49,37 +49,11 @@
                             </ul>
                         </div>
                         <div class="reservation-container">
-                            <form class="form-inline" id="room-reservation">
-                                <div class="form-group">
-                                    <label for="arrivalDate">Arrival</label>
-
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="arrivalDate"
-                                               data-date-start-date="0d"
-                                               placeholder="Arrival Date"/>
-
-                                        <div class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="form-group">
-                                    <label for="departureDate">Departure</label>
-
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" id="departureDate"
-                                               data-date-start-date="0d"
-                                               placeholder="Departure Date"/>
-
-                                        <div class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <a href="http://www.booking.com/hotel/in/big-brother-hostel-agra.html?label=opensearch-plugin;sid=c4aee0ae902f107c3a4429b94ed665a5;dcid=1;dist=0;sb_price_type=total;srpos=1;type=total&"
-                                       class="btn btn-primary" target="_blank">Book Now</a>
-                                </div>
-                            </form>
+                            <link href="http://live.ipms247.com/themes/reservation/css/bookingbtn/jquery.ui.datepicker.css" rel="stylesheet" type="text/css" />
+<form name="_resBBBox" action="http://live.ipms247.com/booking/book-rooms-bigbrotherhostel" target="_blank" method="post">
+<div class="bb_resbox" id="bb_resBookingBox">
+</div>
+</form>
                         </div>
                         <!-- /.navbar-collapse -->
                     </div>
@@ -260,5 +234,77 @@
 <script> if (addthis && addthis.layers) {
     addthis.layers({'share': {'mobile': false, position: 'right'}});
 } </script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>     
+<script type="text/javascript">
+                        $.noConflict();
+                        // Code that uses other library's $ can follow here.
+</script>   
+<link href="https://live.ipms247.com/themes/reservation/css/bookingbtn/resbookingbox.css" rel="stylesheet" type="text/css" />
+    <script src="http://live.ipms247.com/themes/reservation/js/bookingbtn/jquery-ui-1.9.1.js" type="text/javascript"></script>
+                    <script src="https://live.ipms247.com/themes/reservation/js/bookingbtn/jquery.ui.datepicker.js" type="text/javascript"></script>
+                    <script src="https://live.ipms247.com/themes/reservation/js/bookingbtn/common.js" type="text/javascript"></script>
+                    <script src="https://live.ipms247.com/themes/reservation/js/bookingbtn/resbookingbox.js" type="text/javascript"></script>
+                    <link href="https://live.ipms247.com/themes/reservation/css/bookingbtn/jquery.ui.datepicker.css" rel="stylesheet" type="text/css" />
+                    <link href="https://live.ipms247.com/themes/reservation/css/bookingbtn/bboxresponsive.css" rel="stylesheet" type="text/css" />
+<script>
+jQuery("#bb_resBookingBox").bb_resBookingBox({  
+btnContainer: "bb_resBookingBox", 
+headerColor: "#ffffff",  
+bodyColor: "none",  
+showborder: false,
+BorderColor: "#ffffff",
+BorderWidth: 1,
+BorderType: "solid",
+FontFamily: "Arial, Helvetica, sans-serif",
+BodyLanguage:"en", 
+FontSize: "12",
+TextColor: "#fff",
+InputBorderColor: "#cccccc",
+InputbackColor: "#FFFFFF",
+InputTextColor: "#141414",
+ButnBackColor: "#2b689c",
+ButnBorderColor: "#2b689c",
+ButnTextColor: "#ffffff",
+HeaderTextColor: "#000000",
+HeaderFontSize: "1",
+ShowHeader: "0",
+boxwidth: "100",
+boxwidthtype: "TYPE_PER",
+ShowInlineCSS: "1",
+type: "vtype",
+acr:false, 
+ShowChild:false, 
+rooms:false, 
+promotion:false, 
+defaultadult:6, 
+defaultchild:6, 
+defaultroom:16, 
+ShowNights:false, 
+Nonights:48, 
+HTextCaption: "Reservation",
+BtnTextCaption: "Book Now",
+LblPromoCaption: "",
+LblChkOutCaption: "Departure",
+Calinit: true,
+CalShowOn: "both",
+CalDefaultDt: "+0w",
+CalChangeMonth: true,
+CalMinDate: "0",
+CalMaxDate: "",
+CalDtFormat: "dd-mm-yy",
+CalCutoffDays: "1",
+CalImage: "1px -50px",
+CalBackColor: "#a0f2ea",
+CalHeaderColor: "#d5f2f1",
+CalCellActiveColor: "#101414",
+CalCellInActiveColor: "#c8dbda",
+LblArrivalCaption: "Arrival",
+LblNightsCaption: "Nights",
+LblAdultsCaption: "Adult",
+LblChildsCaption: "Child",
+LblRoomsCaption: "Rooms",
+LblPerRoomCaption: "Per Room"
+});  
+</script>      
 </body>
 </html>
